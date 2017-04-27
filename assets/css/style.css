@@ -165,3 +165,32 @@ footer {
     padding: 15px;
     font-weight: 200;
 }
+
+input, label, textarea {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0.5rem 0 .5rem 0.5rem;
+}
+
+input[type="submit"] {
+    width: auto;
+    background: #4aaaa5;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: none;
+    box-shadow: none;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:click {
+    transform: translateY(-6px);
+}
+
+input, textarea {
+    border: 1px solid #dddddd;
+    color: #777777;
+}
