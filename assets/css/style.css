@@ -23,7 +23,7 @@ h1 {
     text-decoration: underline;
 }
 
-.navbar{
+.navbar {
     background: url(../images/tweed.png) repeat top left;
     width: 100vw;
     margin-bottom: 2rem;
@@ -78,8 +78,6 @@ h1 {
     margin: 0 1% 0 0;
     max-width: 650px;
     padding: .5rem;
-    text-align: justify;
-    text-justify: distribute;
 }
 
 .content h1 {
@@ -88,12 +86,17 @@ h1 {
     border-bottom: 2px solid #dddddd;
     margin: 0 5px 5px 5px;
     display: block;
+    text-align: left;
 }
 
 .content a {
     color: #4aaaa5;
     text-decoration: none;
     font-weight: 400;
+}
+
+.text {
+    text-align: justify;
 }
 
 .sidebar {
@@ -138,4 +141,27 @@ footer {
     width: 25%;
     height: auto;
     padding: 0 3%;
+}
+
+.project-tile {
+    width: 40%;
+    margin: 0 2.5% 0 2.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+.project-tile > img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: -5px;
+}
+
+.project-header {
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 2rem;
+    margin: 0;
+    padding: 15px;
+    font-weight: 200;
 }
