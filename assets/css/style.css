@@ -8,6 +8,7 @@ html, body {
     font-weight: 200;
     font-size: 18px;
     height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
 
 .navbar {
     background: url(../images/tweed.png) repeat top left;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -66,7 +67,7 @@ h1 {
 .container {
     display: inline-block;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 44px;
 }
 
@@ -126,10 +127,10 @@ h1 {
 
 footer {
     background: url(../images/tweed.png) repeat top left;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     color: #ffffff;
-    height: 24px;
+    height: 25px;
     margin-top: -25px;
 }
 
@@ -150,7 +151,7 @@ footer > p {
 
 .project-tile {
     width: 40%;
-    margin: 0 2.5% 0 2.5%;
+    margin: 0 2.5% 2rem 2.5%;
     display: inline-block;
     text-align: center;
 }
@@ -159,7 +160,7 @@ footer > p {
     width: 100%;
     height: auto;
     margin-top: 1rem;
-    margin-bottom: -5px;
+    margin-bottom: -95px;
 }
 
 .project-header {
@@ -169,12 +170,13 @@ footer > p {
     margin: 0;
     padding: 15px;
     font-weight: 200;
+    opacity: 0.90;
 }
 
 input, label, textarea {
     display: block;
     text-align: left;
-    width: 100%;
+    width: 97%;
     margin: 0.5rem 0 .5rem 0.5rem;
 }
 
