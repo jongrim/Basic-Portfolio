@@ -201,3 +201,34 @@ input, textarea {
     border: 1px solid #dddddd;
     color: #777777;
 }
+
+.dropdown {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    /*position: absolute;*/
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#portfolioDropdown {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 8px 14px;
+}
